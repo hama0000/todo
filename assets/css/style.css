@@ -5,11 +5,19 @@
     padding: 0;
 }
 
+body{
+    font-size: 16px;
+}
 
 /* コンテナボックス */
 .container{
     max-width: 60rem;
     margin-bottom: 2rem;
+}
+@media screen and (max-width: 599px){
+    .container{
+        width: 100%;
+    }
 }
 
 /* ヘッダー */
@@ -65,10 +73,10 @@
 }
 @media screen and (max-width: 599px){
     .form{
-        width: 20rem;
+        width: 100%;
     }
     .form .text{
-        width: 12rem;
+        width: 100%;
     }
 }
 
@@ -105,7 +113,7 @@ table{
 }
 @media screen and (max-width: 599px){
     table{
-        width: 20rem;
+        width: 100%;
     }
 }
 
@@ -126,11 +134,11 @@ th{
 .id{
     width: 6rem;
 }
-.status{
-    width: 8rem;
-}
 .check{
     width: 6rem;
+}
+.status{
+    width: 8rem;
 }
 
 td input{
@@ -146,4 +154,23 @@ td:nth-of-type(even){
 }
 td:nth-of-type(3){
     text-align: center;
+}
+
+@media screen and (max-width: 599px){
+    th{
+        font-size: 1rem;
+    }
+    .id{
+        width: 2rem;
+    }
+    .check{
+        width: 3rem;
+    }
+    .status{
+        width: 5rem;
+    }
+
+    td input{
+        transform: scale(1);
+    }
 }
