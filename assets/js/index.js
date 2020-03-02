@@ -26,6 +26,18 @@ $('.btnAdd').on('click', function () {
 
 });
 
+$('#btnInfo').on('click', function () {
+    const $info = $('.info');
+
+    if ($info.hasClass('none')) {
+        $info.stop(true).fadeIn();
+        $info.removeClass('none');
+    } else {
+        $info.stop(true).fadeOut();
+        $info.addClass('none');
+    }
+});
+
 $(document).on('click', '.checkbox', function () {
     $checkTd = $(this).parent('td');
     $tr = $checkTd.parent('tr');
