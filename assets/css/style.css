@@ -1,5 +1,120 @@
 @charset "utf-8";
 
-h1{
-    border: 1px solid red;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* コンテナボックス */
+.container{
+    max-width: 60rem;
+    margin-bottom: 2rem;
+}
+
+/* ヘッダー */
+.header{
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+.header h1{
+    margin: 0;
+}
+
+/* コンテンツ部分 */
+.contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.main-form{
+    border-bottom: 1px solid #eee;
+}
+
+/* 項目 */
+.form{
+    display: flex;
+    width: 60rem;
+    height: 4rem;
+    align-items: center;
+    border: 1px solid #eee;
+    border-radius: .25rem;
+    box-sizing: border-box;
+}
+.form .text{
+    font-size: 1.5rem;
+    height: 2.5rem;
+    width: 30rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-sizing: border-box;
+}
+
+.btnAdd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 1rem .5rem 1rem;
+    margin-left: auto;
+    margin-right: 1rem;
+    border: 1px solid #007bff;
+    border-radius: .25rem;
+    box-sizing: border-box;
+    color: #007bff;
+}
+.btnAdd:hover{
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+/* テーブル部分 */
+table{
+    width: 60rem;
+    border: 1px solid #eee;
+    border-radius: .25rem;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+tr{
+    width: auto;
+    height: 3rem;
+    border-bottom: 1px solid #eee;
+    border-radius: .25rem;
+}
+th{
+    font-size: 1.25rem;
+    font-weight: normal;
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+}
+
+.id{
+    width: 6rem;
+}
+.status{
+    width: 8rem;
+}
+.check{
+    width: 6rem;
+}
+
+td input{
+    transform: scale(1.5);
+}
+
+td:first-of-type{
+    text-align: right;
+    padding-right: 2rem;
+}
+td:nth-of-type(even){
+    padding-left: 2rem;
+}
+td:nth-of-type(3){
+    text-align: center;
 }

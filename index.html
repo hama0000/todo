@@ -4,18 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>todo</title>
 </head>
 
 <body>
-    <h1>hello</h1>
-    <p>今回はできるかな？</p>
-    <p>そろそろ解決したい</p>
+    <div class="header">
+        <h1>todo list</h1>
+    </div>
+
+    <div class="main-form contents">
+        <div class="container">
+            <div class="form">
+                <input class="text" type="text" id="inputText">
+                <div class="btnAdd">add</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-list contents">
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="id">id</th>
+                        <th class="todo">todo</th>
+                        <th class="check">check</th>
+                        <th class="status">status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- jQueryで作成する -->
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="./assets/js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
