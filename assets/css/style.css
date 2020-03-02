@@ -19,6 +19,7 @@
     border-bottom: 1px solid #eee;
 }
 .header h1{
+    font-size: 1.75rem;
     margin: 0;
 }
 
@@ -44,6 +45,7 @@
     border-radius: .25rem;
     box-sizing: border-box;
 }
+
 .form .text{
     font-size: 1.5rem;
     height: 2.5rem;
@@ -51,6 +53,23 @@
     margin-left: 1rem;
     margin-right: 1rem;
     box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) and (max-width: 959px){
+    .form{
+        width: 36rem;
+    }
+    .form .text{
+        width: 28rem;
+    }
+}
+@media screen and (max-width: 599px){
+    .form{
+        width: 20rem;
+    }
+    .form .text{
+        width: 12rem;
+    }
 }
 
 .btnAdd{
@@ -78,6 +97,16 @@ table{
     border-radius: .25rem;
     box-sizing: border-box;
     border-collapse: collapse;
+}
+@media screen and (min-width: 600px) and (max-width: 959px){
+    table{
+        width: 36rem;
+    }
+}
+@media screen and (max-width: 599px){
+    table{
+        width: 20rem;
+    }
 }
 
 tr{
