@@ -47,7 +47,8 @@ body{
 .info-main{
     width: 60rem;
     padding: 1rem;
-    background-color: #ffffef;
+    background-color: #eef0b1;
+    /* 薄い黄色 #ffffef */
     border: 1px solid #eee;
     border-radius: .25rem;
     box-sizing: border-box;
@@ -73,7 +74,8 @@ body{
     width: 60rem;
     height: 4rem;
     align-items: center;
-    background-color: #f1f7fc;
+    background-color: #e4f0fc;
+    /* 薄い水色 #f1f7fc */
     border: 1px solid #eee;
     border-radius: .25rem;
     box-sizing: border-box;
@@ -158,7 +160,8 @@ th{
     box-sizing: border-box;
 }
 thead tr{
-    background-color: #f1f7fc;
+    background-color: #e4f0fc;
+    /* 薄い水色 #f1f7fc */
 }
 
 .id{
