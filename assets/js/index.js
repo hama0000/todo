@@ -16,8 +16,8 @@ $('.btnAdd').on('click', function () {
     if (text == '') {
         return;
     } else {
-        item += '<tr><td>' + id + '</td><td>' + text + '</td><td><input class="checkbox" type="checkbox"></td><td></td></tr>';
-        $tbody.html(item);
+        item = '<tr><td>' + id + '</td><td>' + text + '</td><td><input class="checkbox" type="checkbox"></td><td></td></tr>';
+        $tbody.append(item);
 
         id++;
 
