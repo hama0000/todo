@@ -26,7 +26,8 @@ body{
     align-items: center;
     padding: 1rem;
     border-bottom: 1px solid #eee;
-    background-color: #f1f7fc;
+    color: #fff;
+    background-color: #44aeea;
 }
 .header h1{
     font-size: 1.75rem;
