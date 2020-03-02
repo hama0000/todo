@@ -74,7 +74,7 @@ body{
     width: 60rem;
     height: 4rem;
     align-items: center;
-    background-color: #e4f0fc;
+    background-color: #eee;
     /* 薄い水色 #f1f7fc */
     border: 1px solid #eee;
     border-radius: .25rem;
@@ -160,7 +160,7 @@ th{
     box-sizing: border-box;
 }
 thead tr{
-    background-color: #e4f0fc;
+    background-color: #eee;
     /* 薄い水色 #f1f7fc */
 }
 
