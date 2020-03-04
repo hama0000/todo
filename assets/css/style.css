@@ -53,6 +53,13 @@ body{
     border-radius: .25rem;
     box-sizing: border-box;
 }
+.info-main p{
+    margin-bottom: .5rem;
+}
+.info-main ol{
+    padding-inline-start: 2rem;
+}
+
 .none{
     display: none;
 }
